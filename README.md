@@ -12,7 +12,7 @@ Second, run the development server:
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To run development, click on [http://localhost:3000](http://localhost:3000) to redirect to your browser to see the result. Recommended browser is Google Chrome. 
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
