@@ -1,6 +1,7 @@
 import Head from "next/head";
+import type { NextPage } from 'next'
 
-const first = () => {
+const First: NextPage= () => {
   return (
     <div>
       <Head>
@@ -13,4 +14,4 @@ const first = () => {
   );
 };
 
-export default first;
+export default First;
