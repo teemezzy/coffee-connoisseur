@@ -1,5 +1,5 @@
 ## Getting Started
-First install all dependencies by running.
+First, install all dependencies by running.
 ```bash
 yarn install
 ```
