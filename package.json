@@ -6,9 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
+    "@types/graceful-fs": "^4.1.5",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
