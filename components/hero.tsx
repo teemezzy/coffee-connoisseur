@@ -1,10 +1,11 @@
 import Head from "next/head";
-import type { NextPage } from 'next'
-import dynamic from "next/dynamic";
+import Image from "next/image";
+import type { NextComponentType, NextPageContext } from "next";
 
-const Hero: NextPage = () => {
+interface Props {}
+
+const Hero: NextComponentType<NextPageContext, {}, Props> = (props: Props,) => {
   return (
-
     <div>
       <Head>
         <title>New Coffee Connoisseur</title>
@@ -15,7 +16,7 @@ const Hero: NextPage = () => {
       <p className='text-xl'>Discover your local coffee shops!</p>
       <button className=' bg-blue-800 w-40 h-10'>View stores nearby</button>
     </div>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
